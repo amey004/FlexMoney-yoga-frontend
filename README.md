@@ -1,7 +1,7 @@
 
 # Flexmoney Yoga Classes
 
-A website to enroll for monthly yoga Classes
+A responsive website to enroll for monthly yoga classes
 
 
 ## Documentation
