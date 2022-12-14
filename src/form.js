@@ -42,7 +42,7 @@ export const MyForm = () => {
   /*Send value to database and verify result*/
   const handleSubmitpayment = async e => {
     e.preventDefault();
-    axios.post("http://localhost:3001/register",{name,email,phone,age,batch,month}).then((res)=>{
+    axios.post("https://flexmoney-backend-5ag0.onrender.com/register",{name,email,phone,age,batch,month}).then((res)=>{
       console.log(res.status);
       alert("Registration Successful!");
       window.location.reload(true);
